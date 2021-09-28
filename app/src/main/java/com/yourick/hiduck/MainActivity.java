@@ -105,9 +105,9 @@ public class MainActivity extends AppCompatActivity {
                 if(wrong2==answ){
                     wrong2++;
                 }
-        if(wrong1==wrong2){
-            wrong2++;
-        }
+                if(wrong1==wrong2){
+                    wrong2++;
+                }
 
         int g = r.nextInt(3); // переменная по3иции правильного ответа
         switch (g){
@@ -135,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
     private void whatScore() {
         switch (score){
             case 0:
+                break;
             case 1:
                 break;
             case 2: s1.setVisibility(View.VISIBLE);
@@ -149,6 +150,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 3:
+                break;
             case 4: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.INVISIBLE);
@@ -161,6 +163,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 5:
+                break;
             case 6: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -173,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 7:
+                break;
             case 8: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -185,6 +189,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 9:
+                break;
             case 10: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -197,6 +202,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 11:
+                break;
             case 12: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -209,6 +215,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 13:
+                break;
             case 14: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -221,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 15:
+                break;
             case 16: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -233,6 +241,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 17:
+                break;
             case 18: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
@@ -245,6 +254,7 @@ public class MainActivity extends AppCompatActivity {
                 s10.setVisibility(View.INVISIBLE);
                 break;
             case 19:
+                break;
             case 20: s1.setVisibility(View.VISIBLE);
                 s2.setVisibility(View.VISIBLE);
                 s3.setVisibility(View.VISIBLE);
