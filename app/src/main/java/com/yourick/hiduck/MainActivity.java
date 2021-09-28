@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     ImageView s1,s2,s3,s4,s5,s6,s7,s8,s9,s10;
     int score=0;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
