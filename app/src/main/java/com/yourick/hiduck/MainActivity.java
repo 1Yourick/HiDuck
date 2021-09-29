@@ -314,7 +314,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickA1(View view) {
-        if(score>20){
+        if(score>2){
             Intent i = new Intent(MainActivity.this, VideoActivity.class);
             startActivity(i);
         }
@@ -333,7 +333,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickA2(View view) {
-        if(score>20){
+        if(score>2){
             Intent i = new Intent(MainActivity.this, VideoActivity.class);
             startActivity(i);
         }
@@ -352,7 +352,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickA3(View view) {
-        if(score>20){
+        if(score>2){
             Intent i = new Intent(MainActivity.this, VideoActivity.class);
             startActivity(i);
         }
